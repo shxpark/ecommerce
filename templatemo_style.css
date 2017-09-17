@@ -110,6 +110,7 @@ cite span { font-weight: 400; color: #333; }
 #sidebar { width: 242px }
 #content_home {width: 800px;}
 #content { width: 700px }
+#content_products {width:720px;}
 .content_half { width: 330px }
 .col { float: left; margin-right: 35px }
 .col13 { width: 210px }
