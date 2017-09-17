@@ -6,9 +6,9 @@
 body {
 	margin: 0;
 	padding: 0;
-	color: #d6dbce;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 11px;
+	color: #000000;
+	font-family: Georgia, Arial, Helvetica, sans-serif;
+	font-size: 15px;
 	line-height: 20px; 
 	background-color: #ffffff; 
 	background-repeat: repeat;
@@ -16,31 +16,32 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #fff;
+	color: #000;
 	letter-spacing: -1px;
 	font-weight: 400;
 	padding: 0;
 	margin: 0;
 }
 
-h1 { font-size: 32px; margin-bottom: 20px; }
-h2 { font-size: 28px; margin-bottom: 20px; }
+h1 { font-size: 32px; margin-bottom: 20px;  }
+h2 { font-size: 28px; margin-bottom: 20px;     text-align: center; }
 h3 { font-size: 20px; margin-bottom: 20px; }
-h4 { font-size: 16px; margin-bottom: 10px; font-weight: 100 }
-h5 { font-size: 14px }
-h6 { font-size: 12px }
+h4 { font-size: 16px; margin-bottom: 16px; font-weight: 100 }
+h5 { font-size: 18px }
+h6 { font-size: 18px }
 .header { display: block }
 
 .left { float:left }
 .right { float:right }
+ 
 
-em { color: #e1d620 }
+em { color: #000000 }
 
 .img_fl { float: left; margin: 3px 15px 5px 0 }
 .img_fr { float: left; margin: 3px 0 5px 15px }
 .img_border { background: #fff; padding: 4px; border: 1px solid #eee }
 
-a:link, a:visited { color:#e79e05; text-decoration: none }
+a:link, a:visited { color:#000000; text-decoration: none }
 a:visited { text-decoration:none }
 a:hover { text-decoration:none }
 a:hover,a:active { outline:none }
@@ -48,13 +49,13 @@ a:hover,a:active { outline:none }
 p { margin: 0 0 15px 0; padding: 0 }
 img { border: none; }
 blockquote { padding: 19px; margin: 20px 0 0 0; background:url(images/templatemo_h2.png) repeat; border: 1px solid #869172 }
-cite a, cite a:link, cite a:visited  { font-size: 12px; text-decoration: none; font-style: normal }
+cite a, cite a:link, cite a:visited  { font-size: 18px; text-decoration: none; font-style: normal }
 cite span { font-weight: 400; color: #333; }
 
 .tmo_ul_list { margin: 10px 0 10px 15px; padding: 0; list-style: none }
-.tmo_ul_list li { color:#ffffff; margin: 0 0 7px 0; padding: 2px 0 2px 30px; background: url(images/templatemo_list.png) no-repeat scroll 0 3px  }
-.tmo_ul_list li a { color: #ffffff; font-weight: normal; text-decoration: none }
-.tmo_ul_list li a:hover { color: #ffffff }
+.tmo_ul_list li { color:#000000; margin: 0 0 7px 0; padding: 2px 0 2px 30px; background: url(images/templatemo_list.png) no-repeat scroll 0 3px  }
+.tmo_ul_list li a { color: #000000; font-weight: normal; text-decoration: none }
+.tmo_ul_list li a:hover { color: #000000 }
 
 .tmo_list_circle { list-style: decimal-leading-zero }
 .tmo_list_circle li { margin: 0 0 7px 0 }
@@ -62,9 +63,9 @@ cite span { font-weight: 400; color: #333; }
 .no_bullet { margin: 0; padding: 0; list-style: none }
 .no_bullet li { margin: 0 0 20px 0; padding: 0 }
 
-.price { font-size: 18px; font-weight: 700; color: #fff }
-.normal_price { color: #999; text-decoration:line-through }
-.special_price { color: #fced11 }
+.price { font-size: 18px; font-weight: 700; color: #000}
+.normal_price { color: #000000; text-decoration:line-through }
+.special_price { color: #800000 }
 
 #templatemo_wrapper_h { width: 100%; background: url(images/templatemo_headerrepeat.jpg) repeat-x top }
 #templatemo_wrapper_sp { width: 100%; background: url(images/templatemo_headerrepeat_subpage.jpg) repeat-x top }
@@ -97,7 +98,7 @@ cite span { font-weight: 400; color: #333; }
 
 #templatemo_footer_wrapper {
 	width: 100%;
-	background: #262921
+	background: #696969
 }
 
 #templatemo_footer {
@@ -107,6 +108,7 @@ cite span { font-weight: 400; color: #333; }
 }
 
 #sidebar { width: 242px }
+#content_home {width: 800px;}
 #content { width: 700px }
 .content_half { width: 330px }
 .col { float: left; margin-right: 35px }
@@ -114,7 +116,7 @@ cite span { font-weight: 400; color: #333; }
 .col23 { width: 450px }
 
 #site_title { padding: 20px 0 }
-#site_title a { display: block; font-size: 12px; font-family: Georgia, "Times New Roman", Times, serif; width: 280px; height: 105px; color: #acacac; text-indent: -10000px; background: url(images/templatemo_logo.png) no-repeat top left }
+#site_title a { display: block; font-size: 18px; font-family: Georgia, "Times New Roman", Times, serif; width: 280px; height: 105px; color: #acacac; text-indent: -10000px; background: url(images/templatemo_logo.png) no-repeat top left }
 
 #templatemo_menu { clear: both; padding: 10px; width: 960px; height: 30px; background: url(images/templatemo_menu.png)}
 
@@ -131,7 +133,7 @@ cite span { font-weight: 400; color: #333; }
 	line-height: 20px;
 	width: 170px;
 	color: #333;
-	font-size: 12px;
+	font-size: 18px;
 	padding: 5px;
 	font-variant: normal;
 	border: none;	
@@ -141,10 +143,10 @@ cite span { font-weight: 400; color: #333; }
 #templatemo_search .sub_btn {
 	float: right;
 	display: block;
-	color: #fff;
+	color: #000;
  	height: 30px;
 	width: 30px;
-	font-size: 11px;
+	font-size: 18px;
 	font-weight: 700;
 	line-height: 26px;
 	cursor: pointer;
@@ -164,7 +166,7 @@ cite span { font-weight: 400; color: #333; }
 	height: 5px;
 	background: url(images/templatemo_sbbgb.png)
 }
-.sidebar_box h3 { font-size: 14px; font-weight: 700; padding: 0 10px 0 10px; margin: 0; width: 222px; height: 44px; line-height: 44px; margin-bottom: 0; background: url(images/templatemo_sbheader.png)  no-repeat; color: #fff }
+.sidebar_box h3 { font-size: 18px; font-weight: 700; padding: 0 10px 0 10px; margin: 0; width: 222px; height: 44px; line-height: 44px; margin-bottom: 0; background: url(images/templatemo_sbheader.png)  no-repeat; color: #000}
 
 #sidebar .sidebar_box .content {
 	padding: 10px 10px 5px;
@@ -177,8 +179,8 @@ cite span { font-weight: 400; color: #333; }
 
 #sidebar .sidebar_list { margin: 0; padding: 0 0 10px; list-style: none; }
 #sidebar .sidebar_list li { display: block; margin: 0; padding: 5px 0 }
-#sidebar .sidebar_list li a { color: #ffffff; text-decoration: none; background: url(images/templatemo_list.png) left center no-repeat; padding-left: 18px  }
-#sidebar .sidebar_list li a:hover { color: #fff; text-decoration: none }
+#sidebar .sidebar_list li a { color: #000000; text-decoration: none; background: url(images/templatemo_list.png) left center no-repeat; padding-left: 18px  }
+#sidebar .sidebar_list li a:hover { color: #000; text-decoration: none }
 
 #content h2 { padding: 10px; background: url(images/templatemo_h2.png) repeat }
 
@@ -186,7 +188,7 @@ cite span { font-weight: 400; color: #333; }
 	float: left;
 	width: 165px;
 	text-align: center;
-	margin: 0 10px 10px 0;
+	margin: 0 46px 46px 0;
 	background: url(images/templatemo_h2.png) repeat
 }
 
@@ -194,14 +196,14 @@ cite span { font-weight: 400; color: #333; }
 	margin-bottom: 5px;
 }
 .product_box h3 {
-	font-size: 11px;
-	color: #fff;
+	font-size: 18px;
+	color: #000;
 	margin-bottom: 5px;
 	font-weight: 700;
 }
 .product_box .product_price {
-	color: #fff;
-	font-size: 14px;
+	color: #000;
+	font-size: 18px;
 	font-weight: 700;
 	margin-bottom: 10px;
 }
@@ -232,11 +234,11 @@ a.button {
 }
 
 .form_field input { 
-	background: #395015; 
-	border: 1px solid #5d7c29; 
+	background: #FFFFFF; 
+	border: 1px solid #000000; 
 	width: 300px;
 	padding: 4px;
-	color: #FFFFFF;
+	color: #000000;
 }
 
 #contact_form { padding: 0; margin-bottom: 40px }
@@ -248,14 +250,14 @@ a.button {
 	border: 1px solid #5d7c29; 
 	width: 200px;
 	padding: 4px;
-	color: #FFFFFF; 
+	color: #000000;
 }
 
 #contact_form form label { 
 	display: block; 
 	width: 100px; 
 	margin-right: 12px; 
-	font-size: 11px 
+	font-size: 18px 
 }
 
 #contact_form form textarea { 
@@ -265,7 +267,7 @@ a.button {
 	border: 1px solid #5d7c29; 
 	margin-bottom: 10px;
 	padding: 4px;
-	color: #FFFFFF;
+	color: #000000;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -279,7 +281,7 @@ a.button {
 	background: url(images/templatemo_btn.png); 
 	border: none; 
 	color: #333; 
-	font-size: 11px;
+	font-size: 15px;
 	cursor: pointer;
 }
 
@@ -321,7 +323,7 @@ a.button {
 .pagging ul { margin: 0; padding: 0; list-style: none }
 .pagging ul li { margin: 0; padding: 0; display: inline }
 .pagging ul li a { float: left; display: block; color: #333; text-decoration: none; margin-right: 5px; padding: 5px 10px; background: #fff; border: 1px solid #eee }
-.pagging ul li a:hover { background: #f3b2bd; border: 1px solid #eee; color: #fff  }
+.pagging ul li a:hover { background: #f3b2bd; border: 1px solid #eee; color: #000  }
 
 .cleaner { clear: both; display: block; }
 .h20 { height: 20px }
