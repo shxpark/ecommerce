@@ -57,7 +57,7 @@ cite span { font-weight: 400; color: #333; }
 .tmo_ul_list li a { color: #000000; font-weight: normal; text-decoration: none }
 .tmo_ul_list li a:hover { color: #000000 }
 
-.tmo_list_circle { list-style: decimal-leading-zero }
+.tmo_list_circle { list-style: circle }
 .tmo_list_circle li { margin: 0 0 7px 0 }
 
 .no_bullet { margin: 0; padding: 0; list-style: none }
